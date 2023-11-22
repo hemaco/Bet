@@ -92,7 +92,7 @@ h2{
     width: 80px;
     height: 25px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .mid-times{
@@ -319,7 +319,8 @@ i{
 .mid-right-bottom{
     display: flex;
     background: #10132a;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
     border-radius: 10px;
     width: 240px;
     justify-content: space-around;
