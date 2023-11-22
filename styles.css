@@ -8,6 +8,8 @@
 
 .container{
     background: #3d1b8c;
+    display: flex;
+    flex-direction: column;
 }
 
 .top{
@@ -31,10 +33,21 @@ h2{
     font-weight: 500;
 }
 
-.jogos{
+.top-right{
+    display: flex;
+}
+
+.jogos1{
     background: #261b58;
     width: 504px;
     margin: 35px;
+    margin-left: 40px;
+}
+.jogos2{
+    background: #261b58;
+    width: 504px;
+    margin: 35px;
+    margin-left: 25px;
 }
 
 .top-jogos{
@@ -51,12 +64,14 @@ h2{
     height: 23px;
     width: 65px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .date{
     color: #ffffff;
     font-size: 11px;
     margin-top: 10px;
+    font-weight: 200    ;
 }
 
 .mid-jogos{
@@ -68,6 +83,7 @@ h2{
 
 .time1{
     margin: 21px;
+    margin-left: 40px;
 }
 
 .tempo{
@@ -82,6 +98,7 @@ h2{
     margin: 30px;
     text-align: center;
     margin-top: 40px;
+    margin-left: 50px;
 }
 
 .placar{
@@ -89,10 +106,240 @@ h2{
 }
 
 .time2{
-    margin-top: 21px;
+    margin-top: 6px;
 }
+
+.time3{
+    margin-top: 21px;
+    margin-left: 40px;
+}
+
 
 .bottom-jogos{
     background: #312374;
     color: #ffffffff;
+    text-align: center;
+}
+
+.bet1{
+    border: none;
+    background: #491bb0;
+    border-radius: 10px;
+    margin: 5px;
+    height: 23px;
+    width: 85px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.bet2{
+    border: none;
+    background: #491bb0;
+    border-radius: 10px;
+    margin: 5px;
+    height: 23px;
+    width: 85px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.mid{
+    display: flex;
+}
+
+.mid-left{
+    background: #1e2137;
+    height: 670px;
+    width: 65%;
+    margin: 50px;
+}
+
+.mid-top{
+    display: flex;
+    color: #ffffff;
+    margin: 30px;
+    justify-content: space-between;
+
+}
+
+.mid-top-left{
+    display: flex;
+}
+
+.title-mid{
+    font-weight: 500;
+    margin: 5px;
+    margin-top: 12px;
+    font-size: 22px;
+}
+
+.mid-left-mid{
+    display: flex;
+}
+
+img{
+    margin: 15px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+/* link que ainda não foi acessado */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+/* quando o ponteiro do mouse passa no link */
+a:hover {
+    color: #3d1b8c;
+}
+
+/* quando o link for selecionado */
+a:active {
+    color: #333;
+}
+
+.mid-top-right{
+    margin: 12px;
+}
+
+.win{
+    color: rgb(151, 255, 151);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.slogan{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.slogan2{
+    color: #a1cef8;
+    margin-left: 30px;
+    
+}
+
+.start{
+    color: #ffffff;
+    margin: 30px;
+    background: #3d1b8c;
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mid-left-bottom{
+    margin-top: 65px;
+    display: flex;
+    background: #10132a;
+    justify-content: space-around;
+}
+
+.mid-left-bottom-left{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+}
+
+.text{
+    margin:5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info{
+    color: rgb(77, 255, 77);
+    font-size: 14px;
+}
+
+i{
+    margin-left: 20px;
+    margin-right: 12px;
+}
+
+.mid-left-bottom-mid{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+}
+
+.mid-left-bottom-right{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+}
+
+.mid-right{
+    background: #1e2137;
+    height: 670px;
+    width: 16%;
+    margin-top: 50px;
+    margin-left: 7px;
+}
+
+.mid-right-top{
+    display: flex;
+    color: #ffffff;
+    margin: 20px;
+    margin-bottom: -20px;
+
+}
+
+.slogan3{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.slogan4{
+    color: #a1cef8;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.mid-right-bottom{
+    display: flex;
+    background: #10132a;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 240px;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.mid-right-bottom-top{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+}
+
+.mid-right-bottom-mid{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+}
+
+.mid-right-bottom-bottom{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
 }
